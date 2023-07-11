@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+float a,b,c,semp,area;
+	printf("Enter 3 sides=");
+	scanf("%f%f%f",&a,&b,&c);
+	semp=(a+b+c)/2;
+	area=sqrt((semp-a)*(semp-b)*(semp-c)*semp);
+	printf("area=%f",area);
+	}
